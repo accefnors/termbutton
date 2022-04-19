@@ -7,14 +7,17 @@
 
 # Installation
 
-  - Download the [latest release](https://github.com/acefnors/termbutton/releases/latest)
-  - Extract the zip file to its permanent location (e.g. `/Applications/`)
+## Getting the app
+
+- Download the [latest release](https://github.com/acefnors/termbutton/releases/latest)
+- Extract the zip file to its permanent location (e.g. `/Applications/`)
 
 **or**
+- Download the [applescript file](https://raw.githubusercontent.com/acefnors/termbutton/main/termbutton.applescript)
+- Open it with Script Editor
+- Select `File` -> `Export...` -> `File format` -> `Application` and then `Save`
 
-  - Download the [applescript file](https://raw.githubusercontent.com/acefnors/termbutton/main/termbutton.applescript)
-  - Open it with Script Editor
-  - Select `File` -> `Export...` -> `File format` -> `Application` and then `Save`
+## Adding app to the Finder's toolbar
 
 - Hold `cmd ⌘` and drag the .app to the Finder toolbar
 
@@ -32,5 +35,5 @@ Enter the following commands into your terminal to use a different terminal emul
 
 ## Icon
 
-termbutton's icon in the Finder's toolbar can be modified by changing the app's icon. Select termbutton.app, press `cmd ⌘` + `i` and drag the new icon onto the old one.
+termbutton's icon in the Finder's toolbar can be modified by changing the app's icon. Select termbutton.app, press `cmd ⌘` + `i` to open the app's `Get Info` panel, then drag the new icon onto the old one.
 I am personally using those provided by [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) (a more feature-rich app which, at the time of writing, does not properly work with kitty), which can be found [here](https://github.com/Ji4n1ng/OpenInTerminal/releases/download/v1.2.4/Icons.zip).
