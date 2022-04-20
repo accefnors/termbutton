@@ -1,7 +1,7 @@
 # Usage
 - Click the termbutton icon
   - If no files are selected, it will open a new terminal window in the active Finder window's directory
-  - If a file is selected, it will open the a new terminal window in the file's parent directory
+  - If a file is selected, it will open a new terminal window in the file's parent directory
   - If the selected file is a directory, it will open a new terminal window inside that directory
   - If multiple files are selected it will do the above for each file
 
