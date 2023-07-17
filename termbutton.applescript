@@ -2,10 +2,10 @@ tell application "Finder" to set selected to selection
 
 on openTerm(input)
 	try
-		set term to (do shell script "defaults read acefnors.termbutton terminal")
+		set term to (do shell script "defaults read accefnors.termbutton terminal")
 	on error noTerm
-		do shell script "defaults write acefnors.termbutton terminal Terminal"
-		set term to (do shell script "defaults read acefnors.termbutton terminal")
+		do shell script "defaults write accefnors.termbutton terminal Terminal"
+		set term to (do shell script "defaults read accefnors.termbutton terminal")
 	end try
 	set currentDir to {}
 	if input is {} then
