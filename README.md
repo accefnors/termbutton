@@ -9,11 +9,11 @@
 
 ## Getting the app
 
-- Download the [latest release](https://github.com/acefnors/termbutton/releases/latest)
+- Download the [latest release](https://github.com/accefnors/termbutton/releases/latest)
 - Extract the zip file to its permanent location (e.g. `/Applications/`)
 
 **or**
-- Download the [applescript file](https://raw.githubusercontent.com/acefnors/termbutton/main/termbutton.applescript)
+- Download the [applescript file](https://raw.githubusercontent.com/accefnors/termbutton/main/termbutton.applescript)
 - Open it with Script Editor
 - Select `File` -> `Export...` -> `File format` -> `Application` and then `Save`
 
@@ -29,9 +29,9 @@ Enter the following commands into your terminal to use a different terminal emul
 
 |App|Command|
 |---|---|
-|iTerm|`defaults write acefnors.termbutton terminal iTerm`|
-|kitty|`defaults write acefnors.termbutton terminal kitty`|
-|Terminal (default)|`defaults write acefnors.termbutton terminal Terminal`|
+|iTerm|`defaults write accefnors.termbutton terminal iTerm`|
+|kitty|`defaults write accefnors.termbutton terminal kitty`|
+|Terminal (default)|`defaults write accefnors.termbutton terminal Terminal`|
 
 ## Icon
 
